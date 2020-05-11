@@ -1,9 +1,12 @@
 title: nihilux
+repository: nihilux-org/nihilux
 logo: "/assets/nihilux_logo.png"
 theme: jekyll-theme-minimal
+encoding: utf-8
 plugins:
   - jekyll-polyglot
   - jekyll-minifier
+  - jekyll-github-metadata
 markdown: kramdown
 kramdown:
   input: GFM
@@ -12,16 +15,3 @@ default_lang: "en"
 exclude_from_localization: ["javascript", "images", "css", "README.md"]
 parallel_localization: true
 lang_from_path: true
-collections:
-  projects:
-    - name: nihilux/publication
-      url: https://publication.nihilux.org
-      description:
-        en: an open source house of publication
-        fr: une maison d'édition open source
-    - name: nihilux/photos
-      url: https://photos.nihilux.org
-      description: 
-        en: a web corner dedicated to photography
-        fr: un coin du web dédié à la photographie
-      disabled: true
