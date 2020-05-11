@@ -1,0 +1,7 @@
+- name: nihilux/publication
+  url: https://publication.nihilux.org
+  description: an open source house of publication
+- name: nihilux/photos
+  url: https://photos.nihilux.org
+  description: a web corner dedicated to photography
+  disabled: true
