@@ -4,9 +4,6 @@ _site/
 # avoid leeking tokens
 .env
 
-# Don't fix gem versions
-GemFile.lock
-
 ### macOS template
 # General
 .DS_Store
