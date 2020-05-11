@@ -1,6 +1,8 @@
 # Local Jekyll files
 _site/
 
+.sass-cache
+
 # avoid leeking tokens
 .env
 

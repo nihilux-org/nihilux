@@ -3,10 +3,11 @@ repository: nihilux-org/nihilux
 logo: "/assets/nihilux_logo.png"
 theme: jekyll-theme-minimal
 encoding: utf-8
+url: https://nihilux-org.github.io
+baseurl: /nihilux
 plugins:
   - jekyll-polyglot
   - jekyll-minifier
-  - jekyll-github-metadata
 markdown: kramdown
 kramdown:
   input: GFM
