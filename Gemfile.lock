@@ -263,6 +263,7 @@ DEPENDENCIES
   github-pages
   jekyll-minifier
   jekyll-polyglot
+  libv8
   mini_racer
 
 BUNDLED WITH

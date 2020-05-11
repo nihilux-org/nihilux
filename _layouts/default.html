@@ -687,7 +687,7 @@ Public License instead of this License.  But first, please read
 
     {% I18n_Headers %}
     
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href=" {{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -697,7 +697,7 @@ Public License instead of this License.  But first, please read
     <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
 
-        <small>{<a {% if site.active_lang == "fr" %} class="selected" {% endif %} href=" /fr">fr</a>&nbsp;&dash;&nbsp;<a {% if site.active_lang == "en" %} class="selected" {% endif %} href=" /">en</a>&nbsp;}</small>
+        <small>{<a {% if site.active_lang == "fr" %} class="selected" {% endif %} href=" {{ site.github.url }}/fr">fr</a>&nbsp;&dash;&nbsp;<a {% if site.active_lang == "en" %} class="selected" {% endif %} href=" {{ site.github.url }}">en</a>&nbsp;}</small>
 
         <p class="organization-moto">{{ site.data.strings.organization_description }}</p>
 
@@ -712,7 +712,7 @@ Public License instead of this License.  But first, please read
         <ul>
           {% for project in site.data.projects %}
           {% if project.disabled != true %}
-          <li><a href="{{ subsite.url }}"><span>{{ project.name }}:</span> {{ project.description }}</a></li>
+          <li><a href="{{ project.url }}"><span>{{ project.name }}:</span> {{ project.description }}</a></li>
           {% endif %}
           {% endfor %}
         </ul>
