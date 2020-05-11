@@ -697,7 +697,7 @@ Public License instead of this License.  But first, please read
     <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
 
-        <small>{<a {% if site.active_lang == "fr" %} class="selected" {% endif %} href=" {{ site.github.url }}/fr">fr</a>&nbsp;&dash;&nbsp;<a {% if site.active_lang == "en" %} class="selected" {% endif %} href=" {{ site.github.url }}">en</a>&nbsp;}</small>
+        <small>{<a {% if site.active_lang == "fr" %} class="selected" {% endif %} href=" {{ site.url }}{{ site.baseurl }}/fr/">fr</a>&nbsp;&dash;&nbsp;<a {% if site.active_lang == "en" %} class="selected" {% endif %} href=" {{ site.url }}{{ site.baseurl }}/">en</a>&nbsp;}</small>
 
         <p class="organization-moto">{{ site.data.strings.organization_description }}</p>
 
