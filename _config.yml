@@ -3,8 +3,9 @@ repository: nihilux-org/nihilux
 logo: "/assets/nihilux_logo.png"
 theme: jekyll-theme-minimal
 encoding: utf-8
-url: https://nihilux-org.github.io
-baseurl: /nihilux
+url: https://www.nihilux.org
+include: ["CNAME"]
+baseurl: ""
 plugins:
   - jekyll-polyglot
   - jekyll-minifier
