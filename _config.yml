@@ -1,6 +1,7 @@
 title: nihilux
 repository: nihilux-org/nihilux
-logo: "/assets/nihilux_logo.png"
+logo: "/assets/img/nihilux_logo.png"
+banner: "/assets/img/nihilux_banner.png"
 theme: jekyll-theme-minimal
 encoding: utf-8
 url: https://www.nihilux.org
