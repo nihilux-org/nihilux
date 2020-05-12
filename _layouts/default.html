@@ -682,8 +682,15 @@ Public License instead of this License.  But first, please read
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    {% seo %}
+    
+    <meta property="og:locale" content="{{ site.active_lang }}_CA">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{site.title}}">
+    <meta property="og:description" content="{{site.data.strings.organization_description}}">
+    {% if site.active_lang == site.default_lang %}{% capture meta_url %}{{site.url}}{% endcapture %}{% else %}{% capture meta_url %}{{site.url}}/{{site.active_lang}}{% endcapture %}{% endif %}
+    <meta property="og:url" content="{{meta_url}}">
+    <meta property="og:image" content="{{site.url}}{{site.banner}}">
+    <meta name="twitter:card" content="summary_large_image">
 
     {% I18n_Headers %}
     
