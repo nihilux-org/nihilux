@@ -2,7 +2,7 @@ nihilux est en chantier et voudrait devenir une expression dans le virtuel du mo
 
 nihilux est une vieille chose à laquelle je suis très attachée ; j'ai tenté d'en prendre soin tout au long du chemin
 
-nihilux est une aggrégation de projets qui essaye d'aggréger du monde cherchant à faire les choses avec des perspectives diffétentes
+nihilux est une aggrégation de projets qui essaye d'aggréger du monde cherchant à faire les choses avec des perspectives différentes
 
 nihilux grandira si elle trouve un écho dans le monde
 
