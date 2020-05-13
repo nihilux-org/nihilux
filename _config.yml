@@ -15,6 +15,6 @@ kramdown:
   input: GFM
 languages: ["en", "fr"]
 default_lang: "en"
-exclude_from_localization: ["javascript", "images", "css", "README.md"]
+exclude_from_localization: ["javascript", "images", "css", "README.md", "LICENCE", "CNAME"]
 parallel_localization: true
 lang_from_path: true
