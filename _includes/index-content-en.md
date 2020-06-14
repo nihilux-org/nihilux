@@ -9,8 +9,6 @@ nihilux will grow if it finds an echo in the world
 if not, this piece of virtuality will shut down, because we need to focus on reality
 
 let's forget our egos and heal the present
-
-we're all in this together,
   
 wish you the best,
 
