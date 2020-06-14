@@ -10,8 +10,6 @@ si non, ce bout de virtuel s'éteindra, nous devons nous concentrer sur le réel
 
 oublions nos égos et soignons le présent
 
-ça va bien aller,
-
 je vous souhaite le meilleur,
 
 prenez du plaisir,
