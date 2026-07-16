@@ -1,3 +1,6 @@
 - name: nihilux/photos
   url: https://photos.nihilux.org
   description: a web corner dedicated to photography
+- name: eXquisite cOrpses
+  url: https://exquisite-corpses.nihilux.org
+  description: to create exquisite corpses
